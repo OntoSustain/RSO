@@ -3,7 +3,7 @@
 The Sustainability Reporting Standard Ontology RSO © 2024 by testmachina is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Access 
-* The documentation is available [here]([https://tesmachina.github.io/rso.github.io/](https://ontosustain.github.io/rso.github.io/]).
+* The documentation is available [here](https://ontosustain.github.io/rso.github.io/).
 * The ontology (Turtle file) is available [here](ontology-file/rso_blinded.ttl).
 * The competency questions and SPARQL queries are availabel [here](cqs-and-sparql-queries).
 
