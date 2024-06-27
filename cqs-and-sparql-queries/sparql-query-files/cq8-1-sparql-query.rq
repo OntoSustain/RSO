@@ -1,0 +1,8 @@
+PREFIX rso: <http://www.fortiss.org/diprolea/ontosustain/rso#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?indicator ?variabel WHERE {
+     rso:Indicator23_305-1-a  rso:hasMeasurementVariable ?v;
+                              rdfs:label ?indicator .
+    ?v a rso:Variable ;
+       rdfs:label ?variabel.
+}

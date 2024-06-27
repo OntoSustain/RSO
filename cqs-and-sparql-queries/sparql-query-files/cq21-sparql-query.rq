@@ -1,0 +1,31 @@
+PREFIX rso: <http://www.fortiss.org/diprolea/ontosustain/rso#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+SELECT ?gri_indicator ?esrs_indicator ?value_label ?value_number ?value_unit WHERE {
+    ?indicator1 a rso:GRIIndicator ;
+		       rdfs:label ?gri_indicator ;
+               rso:measuresCoreTopic ?c ;
+               rso:measuresGRITopic rso:GRITopic3_305 ;
+               rso:hasMeasurementVariable ?v ;
+			   qudt:hasQuantityKind ?q .
+    ?indicator2 a rso:ESRSIndicator ;
+                rdfs:label ?esrs_indicator ;
+                rso:measuresCoreTopic ?c ;
+                rso:measuresESRSTopic ?x ;
+                rso:hasMeasurementVariable ?v ;
+			    qudt:hasQuantityKind ?q .
+    OPTIONAL {
+         rso:Organization1 rso:publish ?r .
+         ?r a rso:Report ;
+            rso:hasReportValue ?value .
+         ?value a rso:ReportValue ;
+            rdfs:label ?value_label ;
+            rso:hasNumericalValue ?value_number ;
+            qudt:hasUnit ?unit ;
+            rso:reportsOnIndicator ?indicator1 . 
+            ?unit rdfs:label ?value_unit .
+    }
+    FILTER(LANGMATCHES(LANG(?value_unit), "en"))
+    
+}
+

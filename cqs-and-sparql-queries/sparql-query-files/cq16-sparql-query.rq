@@ -1,0 +1,16 @@
+PREFIX rso: <http://www.fortiss.org/diprolea/ontosustain/rso#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?gri_topic ?rso_core_topic ?esrs_topic WHERE {
+    ?indicator1 a rso:GRIIndicator ;
+               rso:measuresCoreTopic ?c ;
+               rso:measuresGRITopic rso:GRITopic2_302 .
+    rso:GRITopic2_302  rdfs:label ?gri_topic .
+    ?c a rso:CoreTopic ;
+       rdfs:label ?rso_core_topic .
+    ?indicator2 a rso:ESRSIndicator ;
+                rso:measuresCoreTopic ?c ;
+                rso:measuresESRSTopic ?x .
+    ?x a rso:ESRSTopic ;
+       rdfs:label ?esrs_topic .
+    
+}

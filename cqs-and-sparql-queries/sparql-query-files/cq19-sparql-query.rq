@@ -1,0 +1,39 @@
+PREFIX rso: <http://www.fortiss.org/diprolea/ontosustain/rso#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+SELECT ?gri_indicator ?gri_applicability ?gri_unit ?esrs_indicator ?esrs_applicability ?esrs_unit WHERE {
+    ?indicator1 a rso:GRIIndicator ;
+		       rdfs:label ?gri_indicator ;
+               rso:measuresCoreTopic ?c ;
+               rso:measuresGRITopic rso:GRITopic3_305 ;
+               rso:hasMeasurementVariable ?v ;
+			   qudt:hasQuantityKind ?q .
+    ?indicator2 a rso:ESRSIndicator ;
+                rdfs:label ?esrs_indicator ;
+                rso:measuresCoreTopic ?c ;
+                rso:measuresESRSTopic ?x ;
+                rso:hasMeasurementVariable ?v ;
+			    qudt:hasQuantityKind ?q .
+    OPTIONAL {
+        ?indicator1 rso:hasApplicability ?a1 .
+        ?a1 rdfs:label ?gri_applicability .
+    }
+    OPTIONAL {
+        ?indicator2 rso:hasApplicability ?a2 .
+        ?a2 rdfs:label ?esrs_applicability.
+    }
+    OPTIONAL {
+        ?indicator1 qudt:hasUnit ?u1 .
+        ?u1 a qudt:Unit ;
+            rdfs:label ?gri_unit .
+    }
+    OPTIONAL {
+        ?indicator2 qudt:hasUnit ?u2 .
+        ?u2 a qudt:Unit ;
+            rdfs:label ?esrs_unit .
+    }
+    FILTER(LANGMATCHES(LANG(?gri_unit), "en"))
+    FILTER(LANGMATCHES(LANG(?esrs_unit), "en"))
+    
+}
+

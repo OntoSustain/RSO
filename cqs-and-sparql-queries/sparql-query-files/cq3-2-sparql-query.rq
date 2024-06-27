@@ -1,0 +1,9 @@
+PREFIX rso: <http://www.fortiss.org/diprolea/ontosustain/rso#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?dimension WHERE {
+    rso:Indicator87_E1-6-45-a
+               rso:measuresDimension ?d .
+    ?d a rso:ESGDimension ;
+               rdfs:label ?dimension .
+}

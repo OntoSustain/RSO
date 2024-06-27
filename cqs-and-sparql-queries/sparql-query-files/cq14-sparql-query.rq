@@ -1,0 +1,13 @@
+PREFIX rso: <http://www.fortiss.org/diprolea/ontosustain/rso#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+SELECT ?report ?value ?number ?unit  WHERE {
+     rso:Organization1 rso:publish ?r .
+     ?r a rso:Report ;
+        rdfs:label ?report ;
+        rso:hasReportValue ?v .
+     ?v a rso:ReportValue ;
+        rdfs:label ?value ;
+        rso:hasNumericalValue ?number ;
+        qudt:hasUnit ?unit .
+}

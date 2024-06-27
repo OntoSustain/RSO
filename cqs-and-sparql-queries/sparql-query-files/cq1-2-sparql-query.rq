@@ -1,0 +1,8 @@
+PREFIX rso: <http://www.fortiss.org/diprolea/ontosustain/rso#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT * WHERE {
+    rso:Indicator87_E1-6-45-a
+               rdfs:label ?rdfLabel ;
+               skos:prefLabel ?skosLabel .
+}

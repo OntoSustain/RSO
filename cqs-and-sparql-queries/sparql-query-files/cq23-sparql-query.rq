@@ -1,0 +1,34 @@
+PREFIX rso: <http://www.fortiss.org/diprolea/ontosustain/rso#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+select distinct ?gri_id ?gri_indicator ?gri_variable ?esrs_id ?esrs_indicator ?esrs_variable where { 
+#     
+   ?subVariable rdfs:subClassOf ?Variable .
+    ?a a ?subVariable .
+    ?b a ?Variable .
+    
+    ?indicator1 a rso:Indicator ;
+                rdfs:label ?gri_indicator ;
+                dc:identifier ?gri_id ;
+                rso:measuresCoreTopic ?c ;
+                rso:measuresGRITopic rso:GRITopic4_306 ;
+                rso:hasMeasurementVariable ?a ;
+                qudt:hasQuantityKind ?q.
+    ?indicator2 a rso:Indicator ;
+                rdfs:label ?esrs_indicator ;
+                dc:identifier ?esrs_id ;
+               rso:measuresCoreTopic ?c ;
+                rso:measuresESRSTopic ?topic ;
+               rso:hasMeasurementVariable ?b ;
+                qudt:hasQuantityKind ?q.
+    ?Variable rdfs:label ?esrs_variable .
+    ?subVariable rdfs:label ?gri_variable .
+    
+    FILTER (?subVariable != ?Variable)
+    FILTER (?Variable != rso:Variable)
+   
+} 
+
+

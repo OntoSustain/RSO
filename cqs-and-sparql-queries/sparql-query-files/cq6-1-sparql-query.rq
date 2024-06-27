@@ -1,0 +1,12 @@
+PREFIX rso: <http://www.fortiss.org/diprolea/ontosustain/rso#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?standard ?disclosure WHERE {
+    rso:Indicator23_305-1-a 
+     rso:inStandard ?s ;
+     rso:inDisclosure ?d.
+    ?s a rso:Standard ;
+       rdfs:label ?standard .
+    ?d a rso:Disclosure ;
+       rdfs:label ?disclosure .
+       
+}
