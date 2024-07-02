@@ -1,0 +1,45 @@
+GRI indicator,derived from GRI standard,ESRS indicator,derived from ESRS standard
+Topic: Materials,,,
+Total weight of renewable materials that are used to produce and package the organization’s primary products and services during the reporting period,GRI 301,"the undertaking shall include, in tonnes or kilo, at the reporting period:
+(b) the weight in absolute value of renewable input materials from regenerative sources used to manufacture the undertaking’s products and services (including packaging);",ESRS E5
+,,,
+Topic: Energy,,,
+"Total fuel consumption within the organization from renewable sources, in joules or multiples, and including fuel types used.",GRI 302,"total energy consumption from renewable sources disaggregated by:
+i. fuel consumption for renewable sources (including biomass, biogas, non-fossil fuel waste, hydrogen from renewable sources, etc.);",ESRS E1
+,,,
+Topic: Emissions,,,
+Gross direct (Scope 1) GHG emissions in metric tons of CO2 equivalent.,GRI 305,"The disclosure on gross Scope 1 GHG emissions required by paragraph (a) shall include:
+(a) the gross Scope 1 GHG emissions in metric tonnes of CO2eq;",ESRS E1
+Gross location-based energy indirect (Scope 2) GHG emissions in metric tons of CO2 equivalent.,GRI 305,"The disclosure on gross Scope 2 GHG emissions required by paragraph (b) shall include:
+(a) the gross location-based Scope 2 GHG emissions in metric tonnes of CO2eq; ",ESRS E1
+"If applicable, gross market-based energy indirect (Scope 2) GHG emissions in metric tons of CO2 equivalent.",GRI 305,"The disclosure on gross Scope 2 GHG emissions required by paragraph (b) shall include:
+(b) the gross market-based Scope 2 GHG emissions in metric tonnes of CO2eq.",ESRS E1
+Gross other indirect (Scope 3) GHG emissions in metric tons of CO2 equivalent.,GRI 305,"The disclosure of gross Scope 3 GHG emissions required by paragraph (c) shall include GHG emissions in metric tonnes of CO2eq from each significant Scope 3 category (i.e., each Scope 3 category that is a priority for the undertaking).",ESRS E1
+,,,
+Topic: Waste,,,
+"Total weight of waste generated in metric tons, and a breakdown of this total by composition of the waste.",GRI 306,"The undertaking shall disclose the following information on its total amount of waste on its own operations at the reporting period, in tonnes or kilogrammes:
+(a) the total amount of waste generated;",ESRS E5
+Total weight of hazardous waste diverted from disposal in metric tons.,GRI 306,"Total amount of hazardous waste, the amount by weight diverted from disposal",ESRS E5
+"Total weight of hazardous waste diverted from disposal in metric tons, by preparation for reuse.",GRI 306,"for each type of hazardous waste, the amount by weight diverted from disposal by recovery operation type: 
+i. preparation for reuse;",ESRS E5
+"Total weight of hazardous waste diverted from disposal in metric tons, by recycling.",GRI 306,"for each type of hazardous waste, the amount by weight diverted from disposal by recovery operation type:
+ii. recycling;",ESRS E5
+"Total weight of hazardous waste diverted from disposal in metric tons, by other recovery operations.",GRI 306,"for each type of hazardous waste, the amount by weight diverted from disposal by recovery operation type:
+iii. other recovery operations;",ESRS E5
+Total weight of non-hazardous waste diverted from disposal in metric tons.,GRI 306,"Total amount of non-hazardous waste, the amount by weight diverted from disposal",ESRS E5
+"Total weight of non-hazardous waste diverted from disposal in metric tons,by preparation for reuse.",GRI 306,"for each type of non-hazardous waste, the amount by weight diverted from disposal by recovery operation type: 
+i. preparation for reuse;",ESRS E5
+"Total weight of non-hazardous waste diverted from disposal in metric tons, by recycling.",GRI 306,"for each type of non-hazardous waste, the amount by weight diverted from disposal by recovery operation type:
+ii. recycling;",ESRS E5
+"Total weight of non-hazardous waste diverted from disposal in metric tons, by other recovery operations.",GRI 306,"for each type of non-hazardous waste, the amount by weight diverted from disposal by recovery operation type:
+iii. other recovery operations;",ESRS E5
+"Total weight of waste directed to disposal in metric tons, and a breakdown of this total by composition of the waste.",GRI 306,"Total amount of hazardous waste, the amount by weight directed to disposal",ESRS E5
+"Total weight of hazardous waste directed to disposal in metric tons, and a breakdown of this total by the following disposal operations by landfilling.",GRI 306,"for each type of hazardous waste, the amount by weight directed to disposal by waste treatment type:
+ii. landfilling; ",ESRS E5
+"Total weight of hazardous waste directed to disposal in metric tons, and a breakdown of this total by the following disposal operations by other disposal operations.",GRI 306,"for each type of hazardous waste, the amount by weight directed to disposal by waste treatment type:
+iii. other disposal operations;",ESRS E5
+"Total weight of hazardous waste directed to disposal in metric tons, and a breakdown of this total by the following disposal operations by other disposal operations.",GRI 306,"Total amount of non-hazardous waste, the amount by weight directed to disposal",ESRS E5
+"Total weight of non-hazardous waste directed to disposal in metric tons, and a breakdown of this total by the following disposal operations by landfilling.",GRI 306,"for each type of non-hazardous waste, the amount by weight directed to disposal by waste treatment type:
+ii. landfilling; ",ESRS E5
+"Total weight of non-hazardous waste directed to disposal in metric tons, and a breakdown of this total by the following disposal operations by other disposal operations.",GRI 306,"for each type of non-hazardous waste, the amount by weight directed to disposal by waste treatment type:
+iii. other disposal operations;",ESRS E5
