@@ -7,7 +7,7 @@ The RSOKG encompasses 114 quantitative indicators sourced from the GRI and ESRS 
 
 ## Data avaliability
 
-**The RSOKG data is avaliable [here](rso_examples_blinded.ttl)**.
+**The RSOKG data is avaliable [here](rso_examples.ttl)**.
 
 
 ## Namespace Information
