@@ -20,10 +20,10 @@
                                                    dc:publisher "fortissGmbH, Platfrom Engineering Group"@en ;
                                                    dc:title "An Ontology towards Digital Sustainability Reporting"@en ;
                                                    dct:abstract "Sustainability reporting by Small and Medium Enterprises (SMEs) is gaining importance. SMEs form the backbone of European industries, and their customers rely on them to ensure regulatory compliance. In preparing sustainability reports, a combination of standards is commonly used, which encompasses overlapping yet distinct requirements on sustainability indicators. Different standards categorize shared indicators under varying topics, while they also mandate unique indicators to assess identical sustainability phenomena. This poses challenges for SMEs in reporting against multiple standards. Considerable human efforts are demanded to determine the interconnected requirements across different standards. Additionally, reporting on overlapping indicators for new standards results in significant redundant work. Mapping of indicators between different standards allows the semantic interoperability of standards by indicating matching and distinct requirements, aiding in addressing these challenges. The purpose of RSO is to facilitate the interoperability of sustainability standards by indicating the matching and distinct indicators. Indicator mapping will provide further information such as: which report data can be reused for another standard, what distinct requirements exist for the overlapping indicators in two standards, and which distinct indicators are required for the same topic/subtopic by different standards."@en ;
-                                                   dct:contributor "Blinded for review" ,
-                                                                   "https://orcid.org/0000-0002-5881-3608" ;
+                                                   dct:contributor "https://orcid.org/0000-0002-5881-3608" ,
+                                                                   "https://orcid.org/0009-0006-1763-7544" ;
                                                    dct:created "2023-12-01" ;
-                                                   dct:creator "Blinded for review" ;
+                                                   dct:creator "https://orcid.org/0009-0003-0305-9622" ;
                                                    dct:description "RSO is designed  for mapping quantitative environmental indicators from the two significant sustainability reporting standards, GRI and ESRS. It formally represents (1) the classification and provenance information of indicators in the GRI and ESRS standards; (2) the requirements for indicators. RSO is envisioned to be integrated into the SME digital infrastructure. Accompanied by suitable digital infrastructure, the reporting system leveraging RSO as a knowledge base will empower the daily tasks of sustainability managers."@en ,
                                                                    "The ontology defines the representation of environmental indicators in sustainability reporting standards GRI and ESRS."@en ;
                                                    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
@@ -33,7 +33,7 @@
                                                    rdfs:label "The Sustainability Reporting Standard Ontology"@en ;
                                                    owl:versionIRI "http://www.fortiss.org/diprolea/ontosustain/rso/0.1.0" ;
                                                    owl:versionInfo "0.1.0" ;
-                                                   schema:url "https://www.blinded-for-review/rso" .
+                                                   schema:url "http://www.fortiss.org/diprolea/ontosustain/rso" .
 
 #################################################################
 #    Annotation properties
