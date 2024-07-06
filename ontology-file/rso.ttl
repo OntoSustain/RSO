@@ -1,19 +1,24 @@
 @prefix : <http://www.fortiss.org/diprolea/ontosustain/rso#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix gri: <http://www.fortiss.org/diprolea/ontosustain/rsr/gri#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rso: <http://www.fortiss.org/diprolea/ontosustain/rso#> .
+@prefix rsr: <http://www.fortiss.org/diprolea/ontosustain/rsr#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix core: <http://www.fortiss.org/diprolea/ontosustain/rsr/core#> .
 @prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix esrs: <http://www.fortiss.org/diprolea/ontosustain/rsr/esrs#> .
 @prefix qudt: <http://qudt.org/schema/qudt/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@prefix report: <http://www.fortiss.org/diprolea/ontosustain/rsr/report#> .
 @prefix schema: <https://schema.org/> .
-@prefix quantitykind: <https://qudt.org/vocab/quantitykind/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
 @base <http://www.fortiss.org/diprolea/ontosustain/rso#> .
 
 <http://www.fortiss.org/diprolea/ontosustain/rso> rdf:type owl:Ontology ;
