@@ -9,11 +9,11 @@
 > 
 > Indicator derived from the GRI standard [GRI 305](https://www.globalreporting.org/publications/documents/english/gri-305-emissions-2016/):
 > 
-> ```<http://www.fortiss.org/diprolea/ontosustain/rso#Indicator23_305-1-a>```
+> ```<http://www.fortiss.org/diprolea/ontosustain/rsr/gri#Indicator23_305-1-a>```
 > 
 > Indicator derived from the ESRS standard [ESRS E1](https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2F08%2520Draft%2520ESRS%2520E1%2520Climate%2520Change%2520November%25202022.pdf):
 > 
-> ```<http://www.fortiss.org/diprolea/ontosustain/rso#Indicator87_E1-6-45-a>```
+> ```<http://www.fortiss.org/diprolea/ontosustain/rsr/esrs#Indicator87_E1-6-45-a>```
 
 
 
